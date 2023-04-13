@@ -1,0 +1,14 @@
+<svg id="grommet-icons:google" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="grommet-icons:google_Background_Mask_" data-name="grommet-icons:google (Background/Mask)" width="100" height="100" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="grommet-icons:google_Background_Mask_2" data-name="grommet-icons:google (Background/Mask)" width="100" height="100" fill="none"/>
+  <g id="grommet-icons:google-2" data-name="grommet-icons:google" clip-path="url(#clip-path)">
+    <path id="Vector" d="M27.525,26.024a29.487,29.487,0,0,1,17.308-5.57,28.907,28.907,0,0,1,18.408,6.592L77.792,12.5A49.964,49.964,0,0,0,0,27.708L16.775,40.688A29.487,29.487,0,0,1,27.525,26.024Z" transform="translate(5.167)" fill="#ea4335"/>
+    <path id="Vector-2" data-name="Vector" d="M44.846,20.1A29.488,29.488,0,0,1,27.6,14.568,29.488,29.488,0,0,1,16.833,0L0,12.779a49.854,49.854,0,0,0,18.449,20.3,49.854,49.854,0,0,0,26.4,7.469,47.635,47.635,0,0,0,32.642-12.5L61.683,15.6h0A30.834,30.834,0,0,1,44.846,20.1Z" transform="translate(5.154 59.45)" fill="#34a853"/>
+    <path id="Vector-3" data-name="Vector" d="M47.725,9.092A41.611,41.611,0,0,0,46.592,0H0V19.321H26.817a22.536,22.536,0,0,1-9.979,14.825l15.8,12.446C41.788,38.058,47.725,25.358,47.725,9.092Z" transform="translate(50 40.909)" fill="#4a90e2"/>
+    <path id="Vector-4" data-name="Vector" d="M20.455,22.292a29.618,29.618,0,0,1,1.487-9.312L5.167,0A49.725,49.725,0,0,0,0,22.292,50.076,50.076,0,0,0,5.155,44.521L21.988,31.742A29.667,29.667,0,0,1,20.455,22.292Z" transform="translate(0 27.708)" fill="#fbbc05"/>
+  </g>
+</svg>

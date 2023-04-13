@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <!--  meta tag of your HTML document for auto change language -->
+    <meta name="language" content="en">
+    <title>Marketing Landing Page</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
+        <!-- Google translator -->
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,bn,en,es,fr,hi,ru,zh-CN,ur', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+            }
+    
+            $(document).ready(function() {
+                var userLang = navigator.language || navigator.userLanguage;
+                if (userLang) {
+                    userLang = userLang.substring(0, 2);
+                    $('.translate-me').each(function() {
+                        var $this = $(this);
+                        var text = $this.html();
+                        googleTranslateElementInit();
+                        var newtext = text;
+                        google.translate.TranslateElement({pageLanguage: "en"}, userLang, function(result) {
+                            newtext = result.translation[0].replace(/&(?!amp;|gt;|lt;)/g, '&amp;');
+                            $this.html(newtext);
+                        });
+                    });
+                }
+            });
+        </script>
+</head>
+
+<body>
+
+    <!--Header Part-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <!-- Google Translator Language Selector -->
+                <div id="google_translate_element" class="text-end mb-2"></div>
+                <div class="col-lg-3">
+                    <a class="logo" href="index.html">MER<span>KETEK</span></a>
+                </div>
+                <div class="col-lg-6">
+                    <ul>
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <a class="btn-1" href="#">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Banner Part-->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 order-md-first">
+                    <h1 class="translate-me">The next level marketing digital </h1>
+                    <p class="translate-me">Make your marketing something show off. And<br />
+                        effective strategies your need and branding<br /> goal</p>
+                    <a class="btn-1 orange" href="#">Get Started</a>
+                    <a class="btn-1" href="#">Try to free trial</a>
+                </div>
+                <div class="col-lg-5 order-md-last">
+                    <img alt="banner-img" src="../img/banner.svg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section (What we do) -->
+    <section id="services">
+        <div class="container">
+            <span class="small-heading">WHAT WE DO?</span>
+            <h2>Our Digital Marekting Expertice</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="#">
+                        <img alt="content-write" src="../img/content-write.svg">
+                        <h3>Content Writing</h3>
+                        <p>Create interesting and innovative content</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 active">
+                    <a href="#">
+                        <img alt="video" src="../img/camera.svg">
+                        <h3>Video Producing</h3>
+                        <p>Improve your video online. And
+                            grow your marketing with video
+                            producing</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-4">
+                    <a href="#">
+                        <img alt="development" src="../img/development.svg">
+                        <h3>Web Development</h3>
+                        <p>Create interesting and innovative content</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section (Why choose us) -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <img alt="chooseus" src="../img/chooseus.svg">
+                </div>
+                <div class="col-lg-5">
+                    <span>WHY CHOOSE US?</span>
+                    <h2>We Serve Your Digital Objective Better </h2>
+                    <p>We’re experts with integrated digital strategy,<br />
+                        mplementation, and management to grow</p>
+                    <ul>
+                        <li>We work differently</li>
+                        <li>Manage your brand faster</li>
+                        <li>Provide good facilities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIND STRATEGY MARKETING-->
+    <section id="strategy">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <span>FIND STRATEGY MARKETING</span>
+                    <h2>Find your potentional strategy marketing</h2>
+                    <div class="list-item">
+                        <div class="list">
+                            <img alt="target" src="../img/target.svg">
+                            <h3>Target audience</h3>
+                        </div>
+                        <p>We will upgrade your brand so that the target audience is suitable</p>
+                    </div>
+
+                    <div class="list-item">
+                        <div class="list">
+                            <img alt="upgrade" src="../img/upgrade.svg">
+                            <h3>Upgrade your design brand</h3>
+                        </div>
+                        <p>We will upgrade your design to be more creative</p>
+                    </div>
+
+                    <div class="list-item">
+                        <div class="list">
+                            <img alt="conversion" src="../img/conversion.svg">
+                            <h3>High conversation rate</h3>
+                        </div>
+                        <p>We will increase your brand rating</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img alt="strategy" src="../img/strategy.svg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--TESTIMONY-->
+    <section id="testimony">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <img alt="testimony" src="../img/testimony.svg">
+                </div>
+                <div class="col-lg-5">
+                    <div class="row">
+                        <div class="col-3 align-self-center text-center"><img alt="client" src="../img/client.svg">
+                        </div>
+                        <div class="col-9">
+                            <span>TESTIMONY</span>
+                            <h2>Our client get a result</h2>
+                            <div class="owl-carousel" id="testimonials">
+                                <div class="item">
+                                    <div class="content">
+                                        <h3>‘’ Very Creative and Professional ‘’</h3>
+                                        <p>Very helpful for my business, also the achievement is
+                                            very big and rising fast. Marketek is very professional
+                                            and very creative. thank you</p>
+                                        <strong>Baim, Entrepreneur tahu</strong>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="content">
+                                        <h3>‘’ Very Creative and Professional ‘’</h3>
+                                        <p>Very helpful for my business, also the achievement is
+                                            very big and rising fast. Marketek is very professional
+                                            and very creative. thank you</p>
+                                        <strong>Baim, Entrepreneur tahu</strong>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="content">
+                                        <h3>‘’ Very Creative and Professional ‘’</h3>
+                                        <p>Very helpful for my business, also the achievement is
+                                            very big and rising fast. Marketek is very professional
+                                            and very creative. thank you</p>
+                                        <strong>Baim, Entrepreneur tahu</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Partner Brand-->
+    <section id="partner">
+        <div class="container">
+            <span>PARTNER</span>
+            <h2>Our brand collaboration</h2>
+            <div class="row">
+                <div class="col-12">
+                    <img src="../img/cloud.svg" alt="cloud">
+                    <img src="../img/google.svg" alt="google">
+                    <img src="../img/sublime.svg" alt="google">
+                    <img src="../img/vector.svg" alt="vector">
+                    <img src="../img/mi.svg" alt="mi">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- LET’S JOIN -->
+    <section id="lets-join">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span>LET’S JOIN</span>
+                    <h2>Let’s join to make something
+                        bigger together</h2>
+                    <a href="#" class="btn-1">Get Started</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="../img/lets-join.svg" alt="join">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <a href="#"><img src="../img/logo.svg" alt="logo"></a>
+                    <p>Make Strategies Marketing
+                        <br />brand make branding hype
+                    </p>
+                    <a href="#"><img src="../img/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="../img/twitter.svg" alt="twitter"></a>
+                    <a href="#"><img src="../img/instagram.svg" alt="instagram"></a>
+                </div>
+                <div class="col-md-2">
+                    <h4>Why Marketek</h4>
+                    <ul>
+                        <li><a href="#">Our Product</a></li>
+                        <li><a href="#">Our Testimony</a></li>
+                        <li><a href="#">Find Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy and Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4> Contact Us</h4>
+                    <ul>
+                        <li><a href="#">marketek@gmail.com</a></li>
+                        <li><a href="#">+62 1234 8765 223</a></li>
+                        <li><a href="#">2301 Jl. Suku saki, Cijalingan <br/> 6666</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--JAVASCRIPT PART-->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

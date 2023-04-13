@@ -1,0 +1,105 @@
+//COLOUR VARIABLES
+$color-0: #ffffff;
+$color-1: #636262;
+$color-2: #7547C4;
+$color-3: #000000;
+$color-4: #989090;
+$color-5: #FF8E4B;
+$color-6: #FB7B1F7F;
+$color-7:#FFFCFE;
+$color-8:#979797;
+//Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+$google-font: 'Ubuntu', sans-serif;
+//Custom Styling
+body {
+  font-family: $google-font;
+  font-size: 16px;
+}
+section{
+  &:not(:first-of-type){
+    margin: 120px 0;
+  }
+  
+}
+h1, h2, h3, h4, p {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+h1 {
+  font-size: 60px;
+  color: $color-3;
+}
+h2 {
+  font-size: 46px;
+  font-weight: 400;
+  color: $color-3;
+}
+h3 {
+  font-size: 20px;
+  color: $color-5;
+}
+h4 {
+  font-size: 18px;
+  color: $color-5;
+}
+p {
+  color: $color-4;
+  font-size: 20px;
+}
+a {
+  color: $color-1;
+  text-decoration: none !important;
+  transition: all 0.3s ease-in-out;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+span{
+  color: $color-2;
+}
+.btn-1 {
+  background-color: $color-2;
+  color: $color-0;
+  border-radius: 20px;
+  border: 1px solid $color-2;
+  padding: 25px 15px;
+  min-width: 224px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  &:hover {
+    color: $color-2;
+    background: transparent;
+  }
+  &.orange {
+    background: $color-5;
+    border: 1px solid $color-5;
+    box-shadow: 0 16px 32px $color-6;
+    &:hover {
+      background: transparent;
+      box-shadow: none;
+      color: $color-5;
+    }
+  }
+}
+.owl-dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid $color-3 !important;
+  background: $color-3 !important;
+  margin-right:14px;
+  transition: all 0.4s ease-in-out;
+  &.active {
+    background: transparent!important;
+  }
+}
+@media (min-width: 1200px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1240px;
+  }
+}

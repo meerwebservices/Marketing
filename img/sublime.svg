@@ -1,0 +1,18 @@
+<svg id="logos:sublimetext-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="logos:sublimetext-icon_Background_Mask_" data-name="logos:sublimetext-icon (Background/Mask)" width="100" height="100" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.551" y1="0.587" x2="0.637" y2="0.396" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff9700"/>
+      <stop offset="0.53" stop-color="#f48e00"/>
+      <stop offset="1" stop-color="#d06f00"/>
+    </linearGradient>
+  </defs>
+  <rect id="logos:sublimetext-icon_Background_Mask_2" data-name="logos:sublimetext-icon (Background/Mask)" width="100" height="100" fill="none"/>
+  <g id="logos:sublimetext-icon-2" data-name="logos:sublimetext-icon" clip-path="url(#clip-path)">
+    <path id="Vector" d="M97.223.086,2.5,23.247A3.179,3.179,0,0,0,0,25.978V49.649C0,50.82,1.119,51.5,2.5,51.16L97.223,28a3.182,3.182,0,0,0,2.5-2.732V1.6h0C99.722.426,98.6-.249,97.223.086Z" transform="translate(0 48.643)" fill="url(#linear-gradient)"/>
+    <path id="Vector-2" data-name="Vector" d="M2.5,28,97.237,51.162c1.379.337,2.5-.339,2.5-1.508V25.98a3.178,3.178,0,0,0-2.5-2.73L2.5.087C1.119-.25,0,.424,0,1.595V25.266H0A3.178,3.178,0,0,0,2.5,28Z" transform="translate(0 24.219)" fill="#ff9800"/>
+    <path id="Vector-3" data-name="Vector" d="M97.223.087,2.5,23.246A3.178,3.178,0,0,0,0,25.978V49.65c0,1.171,1.119,1.846,2.5,1.51L97.223,28a3.181,3.181,0,0,0,2.5-2.73V1.6h0C99.722.427,98.6-.251,97.223.087Z" transform="translate(0 0)" fill="#ff9800"/>
+  </g>
+</svg>
